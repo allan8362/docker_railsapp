@@ -6,3 +6,5 @@ services:
     build: .      #tells compose where to find the dockerfile to use to build our image
     ports:        # this line and next replaces the -p 3000:3000 used to map ports
       - "3000:3000"
+    volumes:
+      - .:/usr/src/app      # this is same as in docker run -v ${PWD}:/usr/src/app
