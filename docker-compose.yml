@@ -1,0 +1,8 @@
+version: '3'  # this is compose file format version number
+
+services:
+
+  web:      # this is what we choose to call our first single service
+    build: .      #tells compose where to find the dockerfile to use to build our image
+    ports:        # this line and next replaces the -p 3000:3000 used to map ports
+      - "3000:3000"
