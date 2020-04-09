@@ -8,3 +8,14 @@ services:
       - "3000:3000"
     volumes:
       - .:/usr/src/app      # this is same as in docker run -v ${PWD}:/usr/src/app
+    env_file: 
+      - .env/development/database
+      - .env/development/web
+
+  redis:
+    image: redis
+
+  database:
+    image: postgres
+    env_file: 
+      - .env/development/database
