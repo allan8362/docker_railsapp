@@ -8,12 +8,12 @@ services:
     volumes:
       - .:/usr/src/app      # this is same as in docker run -v ${PWD}:/usr/src/app
     env_file: 
-      - .env/development/database
       - .env/development/web
+      - .env/development/database
     environment: 
-      - WEBPACKER_DEV_SERVER_HOST=webpack_dev_server
- 
-  webpack_dev_server:
+      - WEBPACKER_DEV_SERVER_HOST=webpack-dev-server
+  
+  webpack-dev-server:
     build: .
     command: ./bin/webpack-dev-server
     ports:
@@ -21,8 +21,8 @@ services:
     volumes:
       - .:/usr/src/app
     env_file: 
-      - .env/development/database
       - .env/development/web
+      - .env/development/database
     environment: 
       - WEBPACKER_DEV_SERVER_HOST=0.0.0.0
 
