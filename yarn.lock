@@ -1014,6 +1014,8 @@
     "semver" "^7.3.2"
 
 "@npmcli/move-file@^1.0.1", "@npmcli/move-file@^1.1.0":
+  "integrity" "sha512-1SUf/Cg2GzGDyaf15aR9St9TWlb+XvbZXWpDx8YKs7MLzMH/BCeopv+y9vzrzgkfykCGuWOlSu3mZhj2+FQcrg=="
+  "resolved" "https://registry.npmjs.org/@npmcli/move-file/-/move-file-1.1.2.tgz"
   "version" "1.1.2"
   dependencies:
     "mkdirp" "^1.0.4"
@@ -1058,10 +1060,10 @@
   "resolved" "https://registry.yarnpkg.com/@rails/ujs/-/ujs-6.0.3.tgz"
   "version" "6.0.3"
 
-"@rails/webpacker@4.2.2":
-  "integrity" "sha512-jzw7qMfSCLdrt9j1X+2IvXjf63huXYqeIPwLujXa9pYFvxtEstbVYRDivuLhiDokzih+PrYpB+dLTGBNgVsnpw=="
-  "resolved" "https://registry.yarnpkg.com/@rails/webpacker/-/webpacker-4.2.2.tgz"
-  "version" "4.2.2"
+"@rails/webpacker@^4.3.0":
+  "integrity" "sha512-DmKGjKugLeeytT1TO9fUBBjdA3YwQ19zoWK5JDL8V1rM0bf6WRf1n9DZTiVmuf0WO1gp5ej5pJ9b3NjZwfAz4Q=="
+  "resolved" "https://registry.npmjs.org/@rails/webpacker/-/webpacker-4.3.0.tgz"
+  "version" "4.3.0"
   dependencies:
     "@babel/core" "^7.7.2"
     "@babel/plugin-proposal-class-properties" "^7.7.0"
@@ -1076,7 +1078,7 @@
     "babel-plugin-dynamic-import-node" "^2.3.0"
     "babel-plugin-macros" "^2.6.1"
     "case-sensitive-paths-webpack-plugin" "^2.2.0"
-    "compression-webpack-plugin" "^3.0.0"
+    "compression-webpack-plugin" "^4.0.0"
     "core-js" "^3.4.0"
     "css-loader" "^3.2.0"
     "file-loader" "^4.2.0"
@@ -2030,6 +2032,8 @@
     "unique-filename" "^1.1.1"
 
 "cacache@^15.0.3", "cacache@^15.0.5", "cacache@^15.0.6":
+  "integrity" "sha512-g1WYDMct/jzW+JdWEyjaX2zoBkZ6ZT9VpOyp2I/VMtDsNLffNat3kqPFfi1eDRSK9/SuKGyORDHcQMcPF8sQ/w=="
+  "resolved" "https://registry.npmjs.org/cacache/-/cacache-15.0.6.tgz"
   "version" "15.0.6"
   dependencies:
     "@npmcli/move-file" "^1.0.1"
@@ -2419,17 +2423,16 @@
   dependencies:
     "mime-db" ">= 1.43.0 < 2"
 
-"compression-webpack-plugin@^3.0.0":
-  "integrity" "sha512-iqTHj3rADN4yHwXMBrQa/xrncex/uEQy8QHlaTKxGchT/hC0SdlJlmL/5eRqffmWq2ep0/Romw6Ld39JjTR/ug=="
-  "resolved" "https://registry.yarnpkg.com/compression-webpack-plugin/-/compression-webpack-plugin-3.1.0.tgz"
-  "version" "3.1.0"
+"compression-webpack-plugin@^4.0.0":
+  "integrity" "sha512-0mg6PgwTsUe5LEcUrOu3ob32vraDx2VdbMGAT1PARcOV+UJWDYZFdkSo6RbHoGQ061mmmkC7XpRKOlvwm/gzJQ=="
+  "resolved" "https://registry.npmjs.org/compression-webpack-plugin/-/compression-webpack-plugin-4.0.1.tgz"
+  "version" "4.0.1"
   dependencies:
-    "cacache" "^13.0.1"
-    "find-cache-dir" "^3.0.0"
-    "neo-async" "^2.5.0"
-    "schema-utils" "^2.6.1"
-    "serialize-javascript" "^2.1.2"
-    "webpack-sources" "^1.0.1"
+    "cacache" "^15.0.5"
+    "find-cache-dir" "^3.3.1"
+    "schema-utils" "^2.7.0"
+    "serialize-javascript" "^4.0.0"
+    "webpack-sources" "^1.4.3"
 
 "compression@^1.7.4":
   "integrity" "sha512-jaSIDzP9pZVS4ZfQ+TzvtiWhdpFhE2RDHz8QJkpX9SIpLq88VueF5jJw6t+6CUQcAoA6t+x89MLrWAqpfDE8iQ=="
@@ -3520,7 +3523,7 @@
     "make-dir" "^2.0.0"
     "pkg-dir" "^3.0.0"
 
-"find-cache-dir@^3.0.0", "find-cache-dir@^3.3.1":
+"find-cache-dir@^3.3.1":
   "integrity" "sha512-t2GDMt3oGC/v+BMwzmllWDuJF/xcDtE5j/fCGbqDD7OLuJkj0cfh1YSA5VKPvwMeLFLNDBkwOKZ2X85jGLVftQ=="
   "resolved" "https://registry.yarnpkg.com/find-cache-dir/-/find-cache-dir-3.3.1.tgz"
   "version" "3.3.1"
@@ -5323,7 +5326,7 @@
 
 "mkdirp@^1.0.3", "mkdirp@^1.0.4":
   "integrity" "sha512-vVqVZQyf3WLx2Shd0qJ9xuvqgAyKPLAiqITEtqW0oIUjzo3PePDd6fW9iFz30ef7Ysp/oiWqbhszeGWW2T6Gzw=="
-  "resolved" "https://registry.yarnpkg.com/mkdirp/-/mkdirp-1.0.4.tgz"
+  "resolved" "https://registry.npmjs.org/mkdirp/-/mkdirp-1.0.4.tgz"
   "version" "1.0.4"
 
 "move-concurrently@^1.0.1":
@@ -7569,15 +7572,6 @@
     "ajv" "^6.12.4"
     "ajv-keywords" "^3.5.2"
 
-"schema-utils@^2.6.1":
-  "integrity" "sha512-SHiNtMOUGWBQJwzISiVYKu82GiV4QYGePp3odlY1tuKO7gPtphAT5R/py0fA6xtbgLL/RvtJZnU9b8s0F1q0Xg=="
-  "resolved" "https://registry.yarnpkg.com/schema-utils/-/schema-utils-2.7.1.tgz"
-  "version" "2.7.1"
-  dependencies:
-    "@types/json-schema" "^7.0.5"
-    "ajv" "^6.12.4"
-    "ajv-keywords" "^3.5.2"
-
 "schema-utils@^2.6.5":
   "integrity" "sha512-SHiNtMOUGWBQJwzISiVYKu82GiV4QYGePp3odlY1tuKO7gPtphAT5R/py0fA6xtbgLL/RvtJZnU9b8s0F1q0Xg=="
   "resolved" "https://registry.yarnpkg.com/schema-utils/-/schema-utils-2.7.1.tgz"
@@ -7698,11 +7692,6 @@
     "on-finished" "~2.3.0"
     "range-parser" "~1.2.1"
     "statuses" "~1.5.0"
-
-"serialize-javascript@^2.1.2":
-  "integrity" "sha512-rs9OggEUF0V4jUSecXazOYsLfu7OGK2qIn3c7IPBiffz32XniEp/TX9Xmc9LQfK2nQ2QKHvZ2oygKUGU0lG4jQ=="
-  "resolved" "https://registry.yarnpkg.com/serialize-javascript/-/serialize-javascript-2.1.2.tgz"
-  "version" "2.1.2"
 
 "serialize-javascript@^4.0.0":
   "integrity" "sha512-GaNA54380uFefWghODBWEGisLZFj00nS5ACs6yHa9nLqlLpVLO8ChDGeKRjZnV4Nh4n0Qi7nhYZD/9fCPzEqkw=="
@@ -8034,6 +8023,8 @@
     "minipass" "^3.1.1"
 
 "ssri@^8.0.0", "ssri@^8.0.1":
+  "integrity" "sha512-97qShzy1AiyxvPNIkLWoGua7xoQzzPjQ0HAH4B0rWKo7SZ6USuPcrUiAFrws0UH8RrbWmgq3LMTObhPIHbbBeQ=="
+  "resolved" "https://registry.npmjs.org/ssri/-/ssri-8.0.1.tgz"
   "version" "8.0.1"
   dependencies:
     "minipass" "^3.1.1"
@@ -8327,6 +8318,8 @@
     "inherits" "2"
 
 "tar@^6.0.2", "tar@^6.1.0":
+  "integrity" "sha512-DUCttfhsnLCjwoDoFcI+B2iJgYa93vBnDUATYEeRx6sntCTdN01VnqsIuTlALXla/LWooNg0yEGeB+Y8WdFxGA=="
+  "resolved" "https://registry.npmjs.org/tar/-/tar-6.1.0.tgz"
   "version" "6.1.0"
   dependencies:
     "chownr" "^2.0.0"
@@ -8867,7 +8860,7 @@
     "ansi-colors" "^3.0.0"
     "uuid" "^3.3.2"
 
-"webpack-sources@^1.0.0", "webpack-sources@^1.0.1", "webpack-sources@^1.1.0", "webpack-sources@^1.4.0", "webpack-sources@^1.4.1", "webpack-sources@^1.4.3":
+"webpack-sources@^1.0.0", "webpack-sources@^1.1.0", "webpack-sources@^1.4.0", "webpack-sources@^1.4.1", "webpack-sources@^1.4.3":
   "integrity" "sha512-lgTS3Xhv1lCOKo7SA5TjKXMjpSM4sBjNV5+q2bqesbSPs5FjGmU6jjtBSkX9b4qW87vDIsCIlUPOEhbZrMdjeQ=="
   "resolved" "https://registry.yarnpkg.com/webpack-sources/-/webpack-sources-1.4.3.tgz"
   "version" "1.4.3"
@@ -8875,7 +8868,7 @@
     "source-list-map" "^2.0.0"
     "source-map" "~0.6.1"
 
-"webpack@^3.0.0 || ^4.0.0", "webpack@^4.0.0", "webpack@^4.0.0 || ^5.0.0", "webpack@^4.3.0 || ^5.0.0", "webpack@^4.4.0", "webpack@^4.41.2", "webpack@>=2", "webpack@>=4.4.0", "webpack@4.x.x":
+"webpack@^3.0.0 || ^4.0.0", "webpack@^4.0.0", "webpack@^4.0.0 || ^5.0.0", "webpack@^4.4.0", "webpack@^4.41.2", "webpack@>=2", "webpack@>=4.4.0", "webpack@4.x.x":
   "integrity" "sha512-4UOGAohv/VGUNQJstzEywwNxqX417FnjZgZJpJQegddzPmTvph37eBIRbRTfdySXzVtJXLJfbMN3mMYhM6GdmQ=="
   "resolved" "https://registry.yarnpkg.com/webpack/-/webpack-4.44.1.tgz"
   "version" "4.44.1"
